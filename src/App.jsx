@@ -6,6 +6,7 @@ import CategoryBox from './Components/CategoryBox'
 
 import Section from './Components/Section'
 import { sectionsData } from './Components/SectionsData'
+import Footer from './Components/Footer'
 
 export default function App() {
   return (
@@ -24,6 +25,8 @@ export default function App() {
           />
         ))}
       </div>
+
+      <Footer/>
     </>
   )
 }
