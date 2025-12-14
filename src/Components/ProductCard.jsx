@@ -6,7 +6,7 @@ export default function ProductCard({ img, name, qty, price }) {
       transition-all duration-200
     ">
 
-      {/* Product Image */}
+     
       <div className="w-full flex justify-center">
         <img 
           src={img} 
@@ -15,31 +15,31 @@ export default function ProductCard({ img, name, qty, price }) {
         />
       </div>
 
-      {/* ETA Tag */}
+      
       <div className="flex items-center gap-1 mt-3">
         <span className="text-green-600 text-lg">⏱</span>
         <p className="text-xs font-semibold text-gray-600">19 MINS</p>
       </div>
 
-      {/* Product Name */}
+     
       <p className="text-[15px] font-semibold mt-1 leading-tight">
         {name}
       </p>
 
-      {/* Quantity */}
+      
       <p className="text-sm text-gray-500 mt-1">
         {qty}
       </p>
 
-      {/* Bottom Row: Price + Add Button */}
+      
       <div className="flex items-center justify-between mt-4">
 
-        {/* Price */}
+       
         <p className="text-[17px] font-semibold text-gray-800">
           ₹{price}
         </p>
 
-        {/* ADD Button */}
+       
         <button 
           className="
             border border-green-600 text-green-600 font-semibold 

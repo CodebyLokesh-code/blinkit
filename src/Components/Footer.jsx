@@ -20,10 +20,10 @@ export default function Footer() {
     <footer className="w-full mt-20 pt-12 bg-white">
       <div className="max-w-[1280px] mx-auto px-4">
 
-        {/* TOP SECTION (Useful Links + Categories) */}
+       
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12">
           
-          {/* Useful Links */}
+          
           <div>
             <h3 className="text-xl font-semibold mb-4">Useful Links</h3>
             <div className="space-y-2 text-gray-700">
@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Partner + Recipes */}
+          
           <div>
             <h3 className="text-xl font-semibold mb-4 invisible md:visible"></h3>
             <div className="space-y-2 text-gray-700">
@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Categories 3 columns */}
+         
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <h3 className="text-xl font-semibold">Categories</h3>
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* MIDDLE BAR */}
+        
         <div className="w-full bg-[#f9f9f9] py-6 mt-2 flex flex-col md:flex-row 
                         items-center justify-between px-6 rounded-lg">
           <p className="text-gray-600 text-sm">
@@ -84,7 +84,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* LEGAL DISCLAIMER */}
+        
         <p className="text-gray-600 text-center text-sm mt-6 leading-relaxed px-4">
           “Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related, linked or interconnected in whatsoever manner or nature, 
           to “GROFGR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.
